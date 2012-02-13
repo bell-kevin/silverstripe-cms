@@ -111,7 +111,7 @@ JS
 		Requirements::javascript(CMS_DIR . "/javascript/LeftAndMain.js");
 		Requirements::javascript(CMS_DIR . "/thirdparty/multifile/multifile.js");
 		Requirements::css(CMS_DIR . "/thirdparty/multifile/multifile.css");
-		Requirements::javascript(SAPPHIRE_DIR . "/thirdparty/jquery/jquery.js");
+		Requirements::javascript(SAPPHIRE_DIR . "/thirdparty/jquery/jquery-packed.js");
 		Requirements::javascript(SAPPHIRE_DIR . "/javascript/jquery_improvements.js");
 		Requirements::css(CMS_DIR . "/css/typography.css");
 		Requirements::css(CMS_DIR . "/css/layout.css");

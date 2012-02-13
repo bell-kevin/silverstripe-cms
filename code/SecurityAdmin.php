@@ -200,7 +200,7 @@ class SecurityAdmin extends LeftAndMain implements PermissionProvider {
 		Requirements::css(SAPPHIRE_DIR . '/css/Form.css');
 		Requirements::css(CMS_DIR . '/css/typography.css');
 		Requirements::css(CMS_DIR . '/css/cms_right.css');
-		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
+		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery-packed.js');
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-livequery/jquery.livequery.js');
 		Requirements::javascript(SAPPHIRE_DIR . '/javascript/jquery_improvements.js');
 		Requirements::css(CMS_DIR . '/css/MemberImportForm.css');
@@ -232,7 +232,7 @@ class SecurityAdmin extends LeftAndMain implements PermissionProvider {
 		Requirements::css(SAPPHIRE_DIR . '/css/Form.css');
 		Requirements::css(CMS_DIR . '/css/typography.css');
 		Requirements::css(CMS_DIR . '/css/cms_right.css');
-		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
+		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery-packed.js');
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery-livequery/jquery.livequery.js');
 		Requirements::javascript(SAPPHIRE_DIR . '/javascript/jquery_improvements.js');
 		Requirements::css(CMS_DIR . '/css/MemberImportForm.css');

@@ -203,7 +203,7 @@ class LeftAndMain extends Controller {
 		}
 		
 		Requirements::javascript(SAPPHIRE_DIR . '/thirdparty/prototype/prototype.js');
-		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
+		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery-packed.js');
 		Requirements::javascript(SAPPHIRE_DIR . '/javascript/jquery_improvements.js');
 		Requirements::javascript(THIRDPARTY_DIR . '/behaviour/behaviour.js');
 		Requirements::javascript(SAPPHIRE_DIR . '/javascript/core/jquery.ondemand.js');
@@ -261,7 +261,7 @@ class LeftAndMain extends Controller {
 				THIRDPARTY_DIR . '/prototype/prototype.js',
 				THIRDPARTY_DIR . '/behaviour/behaviour.js',
 				SAPPHIRE_DIR . '/javascript/prototype_improvements.js',
-				THIRDPARTY_DIR .'/jquery/jquery.js',
+				THIRDPARTY_DIR .'/jquery/jquery-packed.js',
 				THIRDPARTY_DIR . '/jquery-effen/jquery.fn.js',
 				SAPPHIRE_DIR . '/javascript/core/jquery.ondemand.js',
 				SAPPHIRE_DIR . '/javascript/jquery_improvements.js',
